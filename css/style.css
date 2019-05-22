@@ -106,4 +106,62 @@ body {
 }
 .cta {
     grid-column: span 2;
+    border-radius: 10px;
+}
+.see-all-latest-articles {
+    height: 200px;
+    width: 100%;
+}
+.v-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.h-center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+.center {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-link {
+    display: block;
+    width: fit-content;
+    color: #444;
+    border-bottom: #999 5px solid;
+}
+.coming-up-next {
+    height: fit-content;
+}
+.coming-up-next > .panel {
+    width: fit-content;
+    margin: 50px 0;
+}
+.coming-up-next .caption {
+    width: 50%;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-top: 60px;
+}
+.coming-up-next .button {
+    width: 30%;
+    height: 70px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.big-circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    margin-top: 60px;
+}
+.big-circle .inner-circle {
+    width: 80%;
+    height: 400px;
+    border-radius: 100%;
 }
