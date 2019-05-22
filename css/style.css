@@ -39,8 +39,17 @@ a:hover {
 .margin-50 {
     margin: 50px;
 }
+.margin-top-bottom-5 {
+    margin: 5px 0;
+}
 .margin-top-bottom-10 {
     margin: 10px 0;
+}
+.margin-top-bottom-20 {
+    margin: 20px 0;
+}
+.margin-top-bottom-30 {
+    margin: 30px 0;
 }
 .margin-top-bottom-50 {
     margin: 50px 0;
@@ -234,6 +243,32 @@ a:hover {
 .h-space-after-50 {
     margin-bottom: 50px;
 }
+.footer-menu a {
+    margin: 0 7px;
+    text-decoration: underline;
+}
+.footer-menu a:hover {
+    color: white;
+}
 .footer .panel {
     line-height: 40px;
+}
+.return-to-top {
+    height: 70px;
+}
+.return-to-top .button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #666;
+    border-radius: 10px;
+    position: absolute;
+    right: 25px;
+    transform: rotateZ(-15deg);
+    transition: all .3s ease-out;
+}
+.return-to-top .button:hover {
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    background-color: #222;
 }
