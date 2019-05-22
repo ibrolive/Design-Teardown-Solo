@@ -1,5 +1,19 @@
 body {
     margin: 0;
+    font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+.bigger-font {
+    font-size: larger;
+}
+.bold {
+    font-weight: bold;
 }
 .full-width, .full {
     width: 100%;
@@ -21,6 +35,15 @@ body {
 }
 .margin-20 {
     margin: 20px;
+}
+.margin-50 {
+    margin: 50px;
+}
+.margin-top-bottom-10 {
+    margin: 10px 0;
+}
+.margin-top-bottom-50 {
+    margin: 50px 0;
 }
 .navbar {
     padding: 1em 0;
@@ -144,12 +167,11 @@ body {
 }
 .coming-up-next2 > .panel {
     width: fit-content;
-    margin: 50px 0;
 }
 .coming-up-next2 .caption, .smashing-newsletter2 .caption {
     width: 50%;
     font-size: 1.5em;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .t-justify {
     text-align: justify;
@@ -158,7 +180,7 @@ body {
     text-align: center;
 }
 .coming-up-next2 .button {
-    width: 30%;
+    width: 400px;
     height: 70px;
     margin-top: 60px;
     border-radius: 10px;
@@ -179,9 +201,10 @@ body {
 }
 .smashing-newsletter2 {
     border-radius: 10px;
+    margin-top: 30px;
 }
 .smashing-newsletter2 .small-caption {
-    margin: 50px;
+    margin: 50px 0;
 }
 .smashing-newsletter2 .small-caption span {
     display: block;
@@ -204,4 +227,13 @@ body {
 }
 .h-space-10 {
     margin-left: 10px;
+}
+.h-space-70 {
+    margin-left: 70px;
+}
+.h-space-after-50 {
+    margin-bottom: 50px;
+}
+.footer .panel {
+    line-height: 40px;
 }
