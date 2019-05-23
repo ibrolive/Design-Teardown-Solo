@@ -1,3 +1,4 @@
+@import url("../fonts/BLOKKNeue-Regular/blokkfont.css");
 body {
     margin: 0;
     font-family: AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
@@ -8,6 +9,9 @@ a {
 }
 a:hover {
     color: black;
+}
+.blokk-font {
+    font-family: "BLOKK";
 }
 .bigger-font {
     font-size: larger;
@@ -20,6 +24,7 @@ a:hover {
 }
 .darker {
     background-color: #aaa;
+    color: black;
 }
 .darkish {
     background-color: #e0e0e0;
@@ -32,6 +37,7 @@ a:hover {
 }
 .brighter {
     background-color: #eee;
+    color: grey;
 }
 .margin-20 {
     margin: 20px;
@@ -258,17 +264,62 @@ a:hover {
 }
 .return-to-top .button {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #666;
     border-radius: 10px;
     position: absolute;
     right: 25px;
-    transform: rotateZ(-15deg);
-    transition: all .3s ease-out;
+    overflow: hidden;
 }
-.return-to-top .button:hover {
+.faded:hover {
+    opacity: 1;
+}
+.faded {
+    opacity: 0.2;
+}
+.tilt {
+    transition: all .3s ease-out;
+    transform: translateX(15%) rotateZ(-11deg) scale(.87);
+    transform-origin: 0% 90%;
+}
+.tilt:hover {
     cursor: pointer;
-    transform: rotateZ(0deg);
-    background-color: #222;
+    transform: translateX(15%) rotateZ(0) scale(.87);
+}
+.return-to-top .button img {
+    width: 100%;
+    height: 100%;
+}
+.person-of-the-week {
+    height: 400px;
+}
+.person-of-the-week .author {
+    width: 300px;
+    height: 200px;
+    vertical-align: middle;
+}
+.person-of-the-week .text {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.person-of-the-week .header {
+    display: inline-block;
+    position: relative;
+}
+.person-of-the-week .content {
+    display: inline-block;
+    position: relative;
+}
+.frame {
+    border-radius: 10px;
+    /* background-color: black; */
+    display: inline-block;
+}
+.frame img {
+    border-radius: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
 }
